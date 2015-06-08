@@ -7,7 +7,7 @@ Features
 
 Forever-alone-guy part
 ----------------------
-- the PC itself will act both as client and server
+- the client and the server will be ran on the player's computer
 - there will be an extra module, which will work like if the other players are normal
 
 Network part
@@ -49,3 +49,4 @@ Realization
     - then the current user's 'Throw' button is blocked unitl time.id is passed
     - after that you can press 'Throw', choose which ('pionka :D') to move and send the info to the server
     - after it's send, you go to point 3)
+
