@@ -44,9 +44,10 @@ Realization
 
 - front end
   - operation
-    - the 'owner' of the game creates the server and sets the max interval(id) for decision
+    - the 'owner' of the game creates the server and sets the max interval(time) for decision
     - when a user connects to the server, the server returns a unique identifier(id) for his turn
     - then the current user's 'Throw' button is blocked unitl time.id is passed
     - after that you can press 'Throw', choose which ('pionka :D') to move and send the info to the server
     - after it's send, you go to point 3)
+    - on every 'time' seconds the client asks the server for the board, so he can check for updates
 
